@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# Uploaded personal files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
